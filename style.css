@@ -1,0 +1,66 @@
+.small-box {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.fixed-top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.fixed-top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.fixed-bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.absolute-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.absolute-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.absolute-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.absolute-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
